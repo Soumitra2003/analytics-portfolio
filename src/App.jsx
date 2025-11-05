@@ -281,6 +281,14 @@ function App() {
                 GitHub
               </a>
             </div>
+            <div className="project-card modern-project-card project-bottom-right">
+              <h3>Customer Churn Prediction</h3>
+              <p>Telecom customer Churn prediction using ML models and data processing.</p>
+              <a href="https://github.com/Soumitra2003/Churn_Prediction" target="_blank" rel="noopener noreferrer" className="project-link">
+                <i className="devicon-github-original colored" style={{ fontSize: 24, marginRight: 8 }}></i>
+                GitHub
+              </a>
+            </div>
           </div>
         </section>
 

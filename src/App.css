@@ -22,13 +22,14 @@
 .modern-projects-list.triangle-projects-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-  gap: 32px 32px;
+  gap: 32px;
   width: 100%;
   max-width: 650px;
   margin-top: 24px;
-  justify-items: center;
 }
+
+/* Remove old grid positioning rules */
+/* 
 .project-top-left {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -38,11 +39,16 @@
   grid-row: 1 / 2;
 }
 .project-bottom-center {
-  grid-column: 1 / 3;
+  grid-column: 1 / 2;
   grid-row: 2 / 3;
-  justify-self: center;
-  width: 60%;
+  width: 100%;
 }
+.project-bottom-right {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  width: 100%;
+} 
+*/
 @media (max-width: 700px) {
   .modern-projects-list.triangle-projects-list {
     grid-template-columns: 1fr;
